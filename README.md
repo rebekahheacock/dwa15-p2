@@ -6,15 +6,16 @@ TK
 
 ## Description
 
-TK
+XKCD-style password generator
 
-## TODO
-- Create an XKCD-style password generator
+## TODO 
 - Landing page includes a description of your app and what a xkcd password is (assume an unfamiliar audience).
 - Form inputs to specify:
 	- How many words to use.
 	- Whether to include a number.
 	- Whether to include a special symbol (for example, @).
+- Sample output
+	- word1-word2-...-wordn#@
 
 ## TODO (extra)
 - Add more configurations:
@@ -22,6 +23,8 @@ TK
 	- Spaces or camelCase or hyphens.
 	- Max length.
 	- All upper case, or all lower case, or make the first letter of each word upper case.
+	- choose a word separator (including no separator and random separator)
+	- specify min &/or max word length
 	- Etc...
 - Error checking: For example, what happens if a user enters a string instead of an integer for # of words?
 - Scrape an online word list to build a really long word list. 
