@@ -6,23 +6,29 @@
 </head>
 <body>
 
-<form id="newpassword">
+<form id="newpassword" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
 	<label for="numwords">Number of Words</label> 
-	<input type="number" id="numwords">
+	<input type="number" name="numwords" value="<?php echo $_POST["numwords"]; ?>">
 	<br />
 
 	<label for="number">Include a number?</label>
-	<input type="radio" name="number" value="yes" checked> Yes 
-	<input type="radio" name="number" value="no"> No
+	<input type="radio" name="number" <?php if ($_POST["number"] == 'yes') { ?>checked <?php }; ?>value="yes"> Yes
+	<input type="radio" name="number" <?php if ($_POST["number"] == 'no') { ?>checked <?php }; ?>value="no"> No
 	<br />
-	
+
 	<label for ="symbol">Include a symbol?</label>
-	<input type="radio" name="symbol" value="yes" checked> Yes 
-	<input type="radio" name="symbol" value="no"> No
+	<input type="radio" name="symbol" <?php if ($_POST["symbol"] == 'yes') { ?>checked <?php }; ?>value="yes"> Yes
+	<input type="radio" name="symbol" <?php if ($_POST["symbol"] == 'no') { ?>checked <?php }; ?>value="no"> No
+	<br />
 
 	<br />
-	<input type="submit" id="submit" value="submit">
+	<input type="submit" name="submit" value="submit">
 </form>
+
+Number of words: <?php echo $_POST["numwords"]; ?><br>
+Include a number: <?php echo $_POST["number"]; ?><br>
+Include a symbol: <?php echo $_POST["symbol"]; ?><br>
+
 	
 </body>
 </html>
