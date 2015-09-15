@@ -14,10 +14,10 @@ XKCD-style password generator
 
 ## TODO 
 - Landing page includes a description of your app and what a xkcd password is (assume an unfamiliar audience).
-- ~~Form inputs to specify:
-	- How many words to use.
-	- Whether to include a number.
-	- Whether to include a special symbol (for example, @).~~
+- ~~Form inputs to specify:~~
+	- ~~How many words to use.~~
+	- ~~Whether to include a number.~~
+	- ~~Whether to include a special symbol (for example, @).~~
 - ~~Retain/display form data entered after clicking submit (don't clear fields)~~
 - Sample output
 	- word1-word2-...-wordn#@
