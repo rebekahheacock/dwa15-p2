@@ -35,6 +35,7 @@ Word lists are from the [Corpora project](https://github.com/dariusk/corpora/)  
 	- All upper case, or all lower case, or make the first letter of each word upper case.
 	- choose a word separator (including no separator and random separator)
 	- specify min &/or max word length
+	- [Dino mode](https://github.com/dariusk/corpora/blob/master/data/animals/dinosaurs.json)
 	- Etc...
 - Error checking: For example, what happens if a user enters a string instead of an integer for # of words?
 - Scrape an online word list to build a really long word list. 
