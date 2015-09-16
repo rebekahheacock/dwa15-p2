@@ -14,7 +14,7 @@ XKCD-style password generator
 
 ## Outside resources
 
-Word lists are from the (Corpora project)[https://github.com/dariusk/corpora/]  (CC-0)
+Word lists are from the [Corpora project](https://github.com/dariusk/corpora/)  (CC-0)
 
 ## TODO 
 - Landing page includes a description of your app and what a xkcd password is (assume an unfamiliar audience).
@@ -23,6 +23,7 @@ Word lists are from the (Corpora project)[https://github.com/dariusk/corpora/]  
 	- ~~Whether to include a number.~~
 	- ~~Whether to include a special symbol (for example, @).~~
 - ~~Retain/display form data entered after clicking submit (don't clear fields)~~
+- ~~Grab some words to use~~
 - Sample output
 	- word1-word2-...-wordn#@
 
