@@ -12,6 +12,10 @@ TK
 
 XKCD-style password generator
 
+## Outside resources
+
+Word lists are from the (Corpora project)[https://github.com/dariusk/corpora/]  (CC-0)
+
 ## TODO 
 - Landing page includes a description of your app and what a xkcd password is (assume an unfamiliar audience).
 - ~~Form inputs to specify:~~

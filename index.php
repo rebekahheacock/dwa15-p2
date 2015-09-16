@@ -29,6 +29,26 @@ Number of words: <?php echo $_POST["numwords"]; ?><br>
 Include a number: <?php echo $_POST["number"]; ?><br>
 Include a symbol: <?php echo $_POST["symbol"]; ?><br>
 
+<?php
+
+	function scrape($json_file, $word_type) {
+		$rawdata = file_get_contents($json_file);
+		$object = json_decode($rawdata, true);
+		return $object[$word_type];
+	}
+
+	$nouns = scrape("https://raw.githubusercontent.com/dariusk/corpora/master/data/words/nouns.json", "nouns");
+	$adverbs = scrape("https://raw.githubusercontent.com/dariusk/corpora/master/data/words/adverbs.json", "adverbs");
+	$adjectives = scrape("https://raw.githubusercontent.com/dariusk/corpora/master/data/words/adjs.json", "adjectives");
+	$allverbs = scrape("https://raw.githubusercontent.com/dariusk/corpora/master/data/words/verbs.json", "verbs");
+
+	// get past tense verbs only
+	$verbs = array();
+	foreach ($allverbs as $verb) {
+		array_push($verbs, $verb["past"]);
+	}
+	
+?>
 	
 </body>
 </html>
