@@ -44,6 +44,7 @@ Word lists are from the [Corpora project](https://github.com/dariusk/corpora/)  
 	- choose a word separator (including no separator and random separator)
 	- specify min &/or max word length
 	- ~~"Memorable" mode: adjective noun verb adverb~~
+		- Need to limit word count to 4 (and only 4) for this mode
 	- [Dino mode](https://github.com/dariusk/corpora/blob/master/data/animals/dinosaurs.json)
 	- Etc...
 - Error checking: For example, what happens if a user enters a string instead of an integer for # of words?
