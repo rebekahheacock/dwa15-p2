@@ -14,6 +14,8 @@ XKCD-style password generator
 
 ## Outside resources
 
+[Bootstrap](http://getbootstrap.com/)
+
 Word lists are from the [Corpora project](https://github.com/dariusk/corpora/)  ([CC0](http://creativecommons.org/publicdomain/zero/1.0/)):
 - [Adjectives](https://github.com/dariusk/corpora/blob/master/data/words/adjs.json)
 - [Adverbs](https://github.com/dariusk/corpora/blob/master/data/words/adverbs.json)
