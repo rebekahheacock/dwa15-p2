@@ -28,6 +28,7 @@
 			$symbol_no = 'checked';
 		}
 
+		$new_password = 'hah';
 
 
 	}

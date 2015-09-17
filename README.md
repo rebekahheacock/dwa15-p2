@@ -24,6 +24,9 @@ Word lists are from the [Corpora project](https://github.com/dariusk/corpora/)  
 	- ~~Whether to include a special symbol (for example, @).~~
 - ~~Retain/display form data entered after clicking submit (don't clear fields)~~
 - ~~Grab some words to use~~
+- Error checking
+	- if radio button isn't selected for # / symbol
+	- limit # of words
 - Sample output
 	- word1-word2-...-wordn#@
 

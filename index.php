@@ -12,7 +12,6 @@ ini_set('display_errors', 1); # Display errors on page (instead of a log file)
 <body>
 
 <?php require 'pwdgen.php' ?>
-<?php require 'scraping.php' ?>
 
 <form id="newpassword" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']);?>" method="post">
 	<label for="numwords">Number of Words</label> 
@@ -36,6 +35,10 @@ ini_set('display_errors', 1); # Display errors on page (instead of a log file)
 Number of words: <?php echo $numwords; ?><br>
 Include a number: <?php echo $num ?><br>
 Include a symbol: <?php echo $symbol ?><br>
+
+<?php if (isset($_POST['submit'])) { ?>
+	<h1><?php echo $new_password; ?></h1>
+<?php } ?>
 
 
 	
