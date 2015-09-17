@@ -14,7 +14,11 @@ XKCD-style password generator
 
 ## Outside resources
 
-Word lists are from the [Corpora project](https://github.com/dariusk/corpora/)  ([CC0](http://creativecommons.org/publicdomain/zero/1.0/))
+Word lists are from the [Corpora project](https://github.com/dariusk/corpora/)  ([CC0](http://creativecommons.org/publicdomain/zero/1.0/)):
+- [Adjectives](https://github.com/dariusk/corpora/blob/master/data/words/adjs.json)
+- [Adverbs](https://github.com/dariusk/corpora/blob/master/data/words/adverbs.json)
+- [Nouns](https://github.com/dariusk/corpora/blob/master/data/words/nouns.json)
+- [Verbs](https://github.com/dariusk/corpora/blob/master/data/words/verbs.json)
 
 ## TODO 
 - Landing page includes a description of your app and what a xkcd password is (assume an unfamiliar audience).
@@ -29,7 +33,7 @@ Word lists are from the [Corpora project](https://github.com/dariusk/corpora/)  
 	- ~~limit # of words~~
 - ~~Sample output~~
 	- ~~word1 word2 ... wordn # @~~
-- ~~"Memorable" mode: adjective noun verb adverb~~
+
 
 ## TODO (extra)
 - Add more configurations:
@@ -39,6 +43,7 @@ Word lists are from the [Corpora project](https://github.com/dariusk/corpora/)  
 	- All upper case, or all lower case, or make the first letter of each word upper case.
 	- choose a word separator (including no separator and random separator)
 	- specify min &/or max word length
+	- ~~"Memorable" mode: adjective noun verb adverb~~
 	- [Dino mode](https://github.com/dariusk/corpora/blob/master/data/animals/dinosaurs.json)
 	- Etc...
 - Error checking: For example, what happens if a user enters a string instead of an integer for # of words?
