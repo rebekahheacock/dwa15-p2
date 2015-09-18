@@ -17,6 +17,17 @@ ini_set('display_errors', 1); # Display errors on page (instead of a log file)
 
 <form id="newpassword" action="index.php" method="post" class="form-horizontal">
 	<div class="form-group">
+		<div class="col-sm-2 control-label">Let's get fancy</div>
+		<div class="col-sm-10">
+			<label for="memorable" class="radio-inline">
+				<input type="radio" name="fancy" id="memorable" <?php echo $memorable ?> value="memorable"> Make it memorable
+			</label>
+			<label for="dino" class="radio-inline">
+				<input type="radio" name="fancy" id="dino" <?php echo $dino ?>value="dino"> Dinosaurs!
+			</label>
+		</div>
+	</div>
+	<div class="form-group">
 		<label for="numwords" class="col-sm-2 control-label">Number of Words</label> 
 		<div class="col-sm-10">
 			<input type="number" name="numwords" required max="9" value="<?php echo $numwords; ?>" class="form-control">
@@ -44,17 +55,6 @@ ini_set('display_errors', 1); # Display errors on page (instead of a log file)
 			</label>
 		</div>
 	</div>
-	<div class="form-group">
-		<div class="col-sm-2 control-label">Make it memorable?</div>
-		<div class="col-sm-10">
-			<label for="memorableyes" class="radio-inline">
-				<input type="radio" name="memorable" id="memorableyes" required <?php echo $memorable_yes ?> value="yes"> Yes
-			</label>
-			<label for="memorableno" class="radio-inline">
-				<input type="radio" name="memorable" id="memorableno" required <?php echo $memorable_no ?> value="no"> No
-			</label>
-		</div>
-	</div>
 	<button type="submit" name="submit" value="submit" class="btn btn-default col-sm-offset-2">Password, please!</button>
 </form>
 
@@ -64,5 +64,6 @@ ini_set('display_errors', 1); # Display errors on page (instead of a log file)
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="js/p2.js"></script>
 </body>
 </html>
