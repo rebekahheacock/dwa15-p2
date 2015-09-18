@@ -10,6 +10,7 @@
 	$adverbs = scrape('words/adverbs.json', 'adverbs');
 	$adjectives = scrape('words/adjs.json', 'adjs');
 	$allverbs = scrape('words/verbs.json', 'verbs');
+	$dinos = scrape('words/dinosaurs.json', 'dinosaurs');
 
 	// get past tense verbs only
 	$verbs = array();
@@ -25,6 +26,7 @@
 	$adverbs_max = count($adverbs) - 1;
 	$adjectives_max = count($adjectives) - 1;
 	$verbs_max = count($verbs) - 1;
+	$dinos_max = count($dinos) - 1;
 	$words_max = count($words) - 1;
 	$symbols_max = count($symbols) - 1;
 

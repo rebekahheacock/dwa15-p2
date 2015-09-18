@@ -23,7 +23,7 @@ ini_set('display_errors', 1); # Display errors on page (instead of a log file)
 				<input type="radio" name="fancy" id="memorable" <?php echo $memorable ?> value="memorable"> Make it memorable
 			</label>
 			<label for="dino" class="radio-inline">
-				<input type="radio" name="fancy" id="dino" <?php echo $dino ?>value="dino"> Dinosaurs!
+				<input type="radio" name="fancy" id="dino" <?php echo $dino ?> value="dino"> Dinosaurs!
 			</label>
 		</div>
 	</div>

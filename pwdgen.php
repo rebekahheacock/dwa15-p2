@@ -50,6 +50,19 @@
 		if ($fancy == 'memorable') {
 			$password_string = $adjectives[rand(0, $adjectives_max)] . ' ' . $nouns[rand(0, $nouns_max)] . ' ' . $verbs[rand(0, $verbs_max)] . ' ' . $adverbs[rand(0, $adverbs_max)];
 		}
+		else if ($fancy == 'dino') {
+			$dino_place = rand(0, ($numwords - 1));
+
+			for ($i = 0; $i < $numwords; $i++) {
+				if ($i == $dino_place) {
+					$password_string = $password_string . $dinos[rand(0, $dinos_max)] . ' ';
+				} else {
+					$password_string = $password_string . $words[rand(0, $dinos_max)]  . ' ';
+				}
+				
+			}
+			
+		}
 		else {
 			for ($i = 0; $i < $numwords; $i++) {
 				$password_string = $password_string . $words[rand(0, $words_max)] . ' ';
