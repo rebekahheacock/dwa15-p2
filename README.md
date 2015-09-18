@@ -23,6 +23,8 @@ Word lists are from the [Corpora project](https://github.com/dariusk/corpora/)  
 - [Verbs](https://github.com/dariusk/corpora/blob/master/data/words/verbs.json)
 - [Dinosaurs](https://github.com/dariusk/corpora/blob/master/data/animals/dinosaurs.json)
 
+JQuery help on form input disabling from [Kris Ivanov on StackOverflow](http://stackoverflow.com/questions/5818415/enable-disable-submit-button-based-on-radio-buttons/5818714#5818714)
+
 ## TODO 
 - Landing page includes a description of your app and what a xkcd password is (assume an unfamiliar audience).
 - ~~Form inputs to specify:~~
