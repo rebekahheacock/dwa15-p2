@@ -15,27 +15,47 @@ ini_set('display_errors', 1); # Display errors on page (instead of a log file)
 <?php require 'scraping.php' ?>
 <?php require 'pwdgen.php' ?>
 
-<form id="newpassword" action="index.php" method="post">
+<form id="newpassword" action="index.php" method="post" class="form-horizontal">
 	<div class="form-group">
-		<label for="numwords">Number of Words</label> 
-		<input type="number" name="numwords" required max="9" value="<?php echo $numwords; ?>" class="form-control">
+		<label for="numwords" class="col-sm-2 control-label">Number of Words</label> 
+		<div class="col-sm-10">
+			<input type="number" name="numwords" required max="9" value="<?php echo $numwords; ?>" class="form-control">
+		</div>
 	</div>
 	<div class="form-group">
-	<label for="num">Include a number?</label>
-		<input type="radio" name="num" required <?php echo $num_yes ?> value="yes"> Yes
-		<input type="radio" name="num" required <?php echo $num_no ?> value="no"> No
+	<div class="col-sm-2 control-label">Include a number?</div>
+		<div class="col-sm-10">
+			<label for="numyes" class="radio-inline">
+				<input type="radio" name="num" id="numyes" required <?php echo $num_yes ?> value="yes"> Yes
+			</label>
+			<label for="numno" class="radio-inline">
+				<input type="radio" name="num" id="numno" required <?php echo $num_no ?> value="no"> No
+			</label>
+		</div>
 	</div>
 	<div class="form-group">
-	<label for="symbol">Include a symbol?</label>
-		<input type="radio" name="symbol" required <?php echo $symbol_yes ?> value="yes"> Yes
-		<input type="radio" name="symbol" required <?php echo $symbol_no ?> value="no"> No
+	<div class="col-sm-2 control-label">Include a symbol?</div>
+		<div class="col-sm-10">
+			<label for="symbolyes" class="radio-inline">
+				<input type="radio" name="symbol" id="symbolyes" required <?php echo $symbol_yes ?> value="yes"> Yes
+			</label>
+			<label for="symbolno" class="radio-inline">
+				<input type="radio" name="symbol" id="symbolno" required <?php echo $symbol_no ?> value="no"> No
+			</label>
+		</div>
 	</div>
 	<div class="form-group">
-		<label for="memorable">Make it memorable-ish?</label>
-		<input type="radio" name="memorable" required <?php echo $memorable_yes ?> value="yes"> Yes
-		<input type="radio" name="memorable" required <?php echo $memorable_no ?> value="no"> No
+		<div class="col-sm-2 control-label">Make it memorable?</div>
+		<div class="col-sm-10">
+			<label for="memorableyes" class="radio-inline">
+				<input type="radio" name="memorable" id="memorableyes" required <?php echo $memorable_yes ?> value="yes"> Yes
+			</label>
+			<label for="memorableno" class="radio-inline">
+				<input type="radio" name="memorable" id="memorableno" required <?php echo $memorable_no ?> value="no"> No
+			</label>
+		</div>
 	</div>
-	<button type="submit" name="submit" value="submit" class="btn btn-default">Password, please</button>
+	<button type="submit" name="submit" value="submit" class="btn btn-default col-sm-offset-2">Password, please!</button>
 </form>
 
 <?php if (isset($_POST['submit'])) { ?>
