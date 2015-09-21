@@ -1,0 +1,25 @@
+.password	{
+	margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #F60820;
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#numwords {
+	width: 50px;
+	display: inline;
+}
+
+.control-label	{
+	font-weight: 700;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Oswald', sans-serif;
+}
+
+body {
+	font-family: 'Droid Serif', serif;
+}

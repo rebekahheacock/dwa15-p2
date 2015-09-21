@@ -38,6 +38,7 @@ JQuery help on form input disabling from [Kris Ivanov on StackOverflow](http://s
 	- ~~limit # of words~~
 - ~~Sample output~~
 	- ~~word1 word2 ... wordn # @~~
+- Force lowercase on password
 
 
 ## TODO (extra)
