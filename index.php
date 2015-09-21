@@ -31,7 +31,7 @@ ini_set('display_errors', 1); # Display errors on page (instead of a log file)
 					<p class="password">
 				<?php if (isset($_POST['submit'])) {
 					if ($dino == 'checked') {
-						echo '<img src="img/noun_161852_cc.png" alt="Dinosaur" />';
+						echo '<img src="img/dino_small.png" alt="Dinosaur" width="21" height="24" />';
 					}
 					print_r($password_string);
 				} else {
@@ -86,6 +86,10 @@ ini_set('display_errors', 1); # Display errors on page (instead of a log file)
 		</div>
 	</div>
 </div>
+
+<footer>
+	<p><a href="https://thenounproject.com/search/?q=dinosaur&i=161852">Dinosaur icon</a> by <a href="https://thenounproject.com/goodmajr2827">Jennifer Goodman</a> on <a href="https://thenounproject.com/">The Noun Project</a>. Used under a <a href="http://creativecommons.org/licenses/by/3.0/us/">CC-BY 3.0</a> license.</p>
+</footer>
 
 
 

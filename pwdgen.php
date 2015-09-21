@@ -55,9 +55,9 @@
 
 			for ($i = 0; $i < $numwords; $i++) {
 				if ($i == $dino_place) {
-					$password_string = $password_string . $dinos[rand(0, $dinos_max)] . ' ';
+					$password_string = $password_string . strtoupper($dinos[rand(0, $dinos_max)]) . ' ';
 				} else {
-					$password_string = $password_string . $words[rand(0, $dinos_max)]  . ' ';
+					$password_string = $password_string . strtolower($words[rand(0, $dinos_max)])  . ' ';
 				}
 				
 			}
@@ -66,6 +66,7 @@
 		else {
 			for ($i = 0; $i < $numwords; $i++) {
 				$password_string = $password_string . $words[rand(0, $words_max)] . ' ';
+				$password_string = strtolower($password_string);
 			}
 		}
 

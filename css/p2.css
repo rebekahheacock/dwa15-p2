@@ -1,9 +1,19 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	margin-bottom: 80px;
+	font-family: 'Droid Serif', serif;
+}
+
 .password	{
     text-align: center;
     color: #E93E0A;
     font-size: 24px;
     font-family: 'Oswald', sans-serif;
-    height: 72px;
+    min-height: 72px;
     padding: 0;
     margin: 0 0 20px 0;
 }
@@ -29,10 +39,6 @@ h1 small {
 	color: #E93E0A;
 	}
 
-body {
-	font-family: 'Droid Serif', serif;
-}
-
 .btn-default {
 	background-color: #0C6F84;
 	color: #FFF;
@@ -43,4 +49,13 @@ body {
 	background-color: #303E59;
 	color: #FFF;	
 	font-family: 'Oswald', sans-serif;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: #EEE;
+	padding: 20px 5px;
+	height: 60px;
 }
