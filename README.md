@@ -10,7 +10,7 @@ TK
 
 ## Description
 
-XKCD-style password generator
+XKCD-style password generator: generates a string of words, plus an optional number and/or symbol, to serve as a more easily memorable password. Takes as inputs a number of words, whether or not to include a number and/or symbol, and a preferred word separator. Options include "memorable mode," which outputs a string consisting of an adjective, noun, verb, and adverb for a "grammatically correct" password, and "dinosaur mode," which outputs a password containing a dinosaur.
 
 ## Outside resources
 
@@ -26,20 +26,3 @@ Word lists are from the [Corpora project](https://github.com/dariusk/corpora/)  
 [Dinosaur icon](https://thenounproject.com/search/?q=dinosaur&i=161852) is by [Jennifer Goodman](https://thenounproject.com/goodmajr2827) on the [Noun Project](https://thenounproject.com/) and is used under a [CC-BY 3.0](http://creativecommons.org/licenses/by/3.0/us/) license.
 
 JQuery help on form input disabling from [Kris Ivanov on StackOverflow](http://stackoverflow.com/questions/5818415/enable-disable-submit-button-based-on-radio-buttons/5818714#5818714)
-
-
-## TODO (extra)
-- Add more configurations:
-	- How many special characters.
-	- Spaces or camelCase or hyphens.
-	- Max length.
-	- All upper case, or all lower case, or make the first letter of each word upper case.
-	- choose a word separator (including no separator and random separator)
-	- specify min &/or max word length
-	- ~~"Memorable" mode: adjective noun verb adverb~~
-		- ~~Need to limit word count to 4 (and only 4) for this mode~~
-	- ~~[Dino mode](https://github.com/dariusk/corpora/blob/master/data/animals/dinosaurs.json)~~
-		- add dino drawing?
-	- Etc...
-- Error checking: For example, what happens if a user enters a string instead of an integer for # of words?
-- Scrape an online word list to build a really long word list. 

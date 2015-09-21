@@ -48,7 +48,7 @@ ini_set('display_errors', 1); # Display errors on page (instead of a log file)
 					</div>
 				</div>
 				<div class="form-group">
-				<div class="col-sm-4 control-label">Include a number?*</div>
+					<div class="col-sm-4 control-label">Include a number?*</div>
 					<div class="col-sm-8">
 						<label for="numyes" class="radio-inline">
 							<input type="radio" name="num" id="numyes" required <?php echo $num_yes ?> value="yes"> Yes
@@ -59,13 +59,34 @@ ini_set('display_errors', 1); # Display errors on page (instead of a log file)
 					</div>
 				</div>
 				<div class="form-group">
-				<div class="col-sm-4 control-label">Include a symbol?*</div>
+					<div class="col-sm-4 control-label">Include a symbol?*</div>
 					<div class="col-sm-8">
 						<label for="symbolyes" class="radio-inline">
 							<input type="radio" name="symbol" id="symbolyes" required <?php echo $symbol_yes ?> value="yes"> Yes
 						</label>
 						<label for="symbolno" class="radio-inline">
 							<input type="radio" name="symbol" id="symbolno" required <?php echo $symbol_no ?> value="no"> No
+						</label>
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-sm-4 control-label">Separator*</div>
+					<div class="col-sm-8">
+						<label for="separatorspace" class="radio-inline">
+							<input type="radio" name="separator" id="separatorspace" required <?php echo $separator_space ?> value="space"> Space
+						</label>
+						<label for="separatordash" class="radio-inline">
+							<input type="radio" name="separator" id="separatordash" required <?php echo $separator_dash ?> value="dash"> -
+						</label>
+						<label for="separatordot" class="radio-inline">
+							<input type="radio" name="separator" id="separatordot" required <?php echo $separator_dot ?> value="dot"> .
+						</label>
+						<br />
+						<label for="separatornone" class="radio-inline">
+							<input type="radio" name="separator" id="separatornone" required <?php echo $separator_none ?> value="none"> No separator
+						</label>
+						<label for="separatorrandom" class="radio-inline">
+							<input type="radio" name="separator" id="separatorrandom" required <?php echo $separator_random ?> value="random"> Surprise me
 						</label>
 					</div>
 				</div>

@@ -5,6 +5,12 @@
 	$symbol_yes = 'unchecked';
 	$symbol_no = 'unchecked';
 	$memorable = 'unchecked';
+	$separator_space = 'unchecked';
+	$separator_dash = 'unchecked';
+	$separator_dot = 'unchecked';
+	$separator_none = 'unchecked';
+	$separator_random = 'unchecked';
+	$separators = [' ', '-', '.', ''];
 	$dino = 'unchecked';
 	$numwords = '';
 	$num = '';
@@ -45,19 +51,41 @@
 			$symbol_no = 'checked';
 		}
 
+		$separator = $_POST['separator'];
+		if ($separator == 'space') {
+			$separator_space = 'checked';
+			$separator = $separators[0];
+		}
+		else if ($separator == 'dash') {
+			$separator_dash = 'checked';
+			$separator = $separators[1];
+		}
+		else if ($separator == 'dot') {
+			$separator_space = 'checked';
+			$separator = $separators[2];
+		}
+		else if ($separator == 'none') {
+			$separator_none = 'checked';
+			$separator = $separators[3];
+		} 
+		else if ($separator == 'random') {
+			$separator_random = 'checked';
+			$separator = $separators[rand(0, (count($separators) - 1))];
+		}
+
 		$password_string = '';
 
 		if ($fancy == 'memorable') {
-			$password_string = $adjectives[rand(0, $adjectives_max)] . ' ' . $nouns[rand(0, $nouns_max)] . ' ' . $verbs[rand(0, $verbs_max)] . ' ' . $adverbs[rand(0, $adverbs_max)];
+			$password_string = $adjectives[rand(0, $adjectives_max)] . $separator . $nouns[rand(0, $nouns_max)] . $separator . $verbs[rand(0, $verbs_max)] . $separator . $adverbs[rand(0, $adverbs_max)];
 		}
 		else if ($fancy == 'dino') {
 			$dino_place = rand(0, ($numwords - 1));
 
 			for ($i = 0; $i < $numwords; $i++) {
 				if ($i == $dino_place) {
-					$password_string = $password_string . strtoupper($dinos[rand(0, $dinos_max)]) . ' ';
+					$password_string = $password_string . strtoupper($dinos[rand(0, $dinos_max)]) . $separator;
 				} else {
-					$password_string = $password_string . strtolower($words[rand(0, $dinos_max)])  . ' ';
+					$password_string = $password_string . strtolower($words[rand(0, $dinos_max)])  . $separator;
 				}
 				
 			}
@@ -65,17 +93,17 @@
 		}
 		else {
 			for ($i = 0; $i < $numwords; $i++) {
-				$password_string = $password_string . $words[rand(0, $words_max)] . ' ';
+				$password_string = $password_string . $words[rand(0, $words_max)] . $separator;
 				$password_string = strtolower($password_string);
 			}
 		}
 
 		if ($num == 'yes') {
-			$password_string = $password_string . ' ' . rand(0, 9);
+			$password_string = $password_string . rand(0, 9);
 		}
 
 		if ($symbol == 'yes') {
-			$password_string = $password_string . ' ' . $symbols[rand(0, $symbols_max)];
+			$password_string = $password_string . $symbols[rand(0, $symbols_max)];
 		}
 	}
 	
