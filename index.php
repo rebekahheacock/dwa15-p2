@@ -30,9 +30,12 @@ ini_set('display_errors', 1); # Display errors on page (instead of a log file)
 				<div class="col-sm-12">
 					<p class="password">
 				<?php if (isset($_POST['submit'])) {
+					if ($dino == 'checked') {
+						echo '<img src="img/noun_161852_cc.png" alt="Dinosaur" />';
+					}
 					print_r($password_string);
 				} else {
-					echo "********";
+					echo '********';
 				} ?>
 					</p>
 				</div>
@@ -41,7 +44,7 @@ ini_set('display_errors', 1); # Display errors on page (instead of a log file)
 				<div class="form-group">
 					<label for="numwords" class="col-sm-4 control-label">Number of Words</label>
 					<div class="col-sm-8">
-						<input type="number" name="numwords" id="numwords" max="9" value="<?php echo $numwords; ?>" required class="form-control"> (max 9)
+						<input type="number" name="numwords" id="numwords" min="1" max="9" value="<?php echo $numwords; ?>" required class="form-control"> (max 9)
 					</div>
 				</div>
 				<div class="form-group">
