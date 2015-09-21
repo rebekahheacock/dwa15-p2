@@ -77,7 +77,7 @@ ini_set('display_errors', 1); # Display errors on page (instead of a log file)
 						</label>
 					</div>
 				</div>
-				<button type="submit" name="submit" value="submit" class="btn btn-default col-sm-offset-4">Password, please!</button>
+				<button type="submit" name="submit" value="submit" class="btn btn-lg btn-default col-sm-offset-4">Password, please!</button>
 			</form>
 
 		</div>
