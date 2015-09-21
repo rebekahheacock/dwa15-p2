@@ -73,10 +73,10 @@ ini_set('display_errors', 1); # Display errors on page (instead of a log file)
 					<div class="col-sm-4 control-label">Let's get fancy</div>
 					<div class="col-sm-8">
 						<label for="memorable" class="radio-inline">
-							<input type="radio" name="fancy" id="memorable" <?php echo $memorable ?> value="memorable"> Make it memorable: four words in grammatically correct order</em>
+							<input type="radio" name="fancy" id="memorable" <?php echo $memorable ?> value="memorable"> Make it memorable <small>Four words in grammatically correct order</small>
 						</label><br />
 						<label for="dino" class="radio-inline">
-							<input type="radio" name="fancy" id="dino" <?php echo $dino ?> value="dino"> Dinosaurs!
+							<input type="radio" name="fancy" id="dino" <?php echo $dino ?> value="dino"> Dinosaurs! <small>Include a <a href="https://github.com/dariusk/corpora">dinosaur</a> in the password</small>
 						</label>
 					</div>
 				</div>
@@ -88,7 +88,7 @@ ini_set('display_errors', 1); # Display errors on page (instead of a log file)
 </div>
 
 <footer>
-	<p><a href="https://thenounproject.com/search/?q=dinosaur&i=161852">Dinosaur icon</a> by <a href="https://thenounproject.com/goodmajr2827">Jennifer Goodman</a> on <a href="https://thenounproject.com/">The Noun Project</a>. Used under a <a href="http://creativecommons.org/licenses/by/3.0/us/">CC-BY 3.0</a> license.</p>
+	<p><a href="https://thenounproject.com/search/?q=dinosaur&i=161852">Dinosaur icon</a> by <a href="https://thenounproject.com/goodmajr2827">Jennifer Goodman</a> on the <a href="https://thenounproject.com/">Noun Project</a>. Used under a <a href="http://creativecommons.org/licenses/by/3.0/us/">CC-BY 3.0</a> license.</p>
 </footer>
 
 

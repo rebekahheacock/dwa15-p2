@@ -23,22 +23,9 @@ Word lists are from the [Corpora project](https://github.com/dariusk/corpora/)  
 - [Verbs](https://github.com/dariusk/corpora/blob/master/data/words/verbs.json)
 - [Dinosaurs](https://github.com/dariusk/corpora/blob/master/data/animals/dinosaurs.json)
 
-JQuery help on form input disabling from [Kris Ivanov on StackOverflow](http://stackoverflow.com/questions/5818415/enable-disable-submit-button-based-on-radio-buttons/5818714#5818714)
+[Dinosaur icon](https://thenounproject.com/search/?q=dinosaur&i=161852) is by [Jennifer Goodman](https://thenounproject.com/goodmajr2827) on the [Noun Project](https://thenounproject.com/) and is used under a [CC-BY 3.0](http://creativecommons.org/licenses/by/3.0/us/) license.
 
-## TODO 
-- Landing page includes a description of your app and what a xkcd password is (assume an unfamiliar audience).
-- ~~Form inputs to specify:~~
-	- ~~How many words to use.~~
-	- ~~Whether to include a number.~~
-	- ~~Whether to include a special symbol (for example, @).~~
-- ~~Retain/display form data entered after clicking submit (don't clear fields)~~
-- ~~Grab some words to use~~
-- ~~Error checking~~
-	- ~~if radio button isn't selected for # / symbol~~
-	- ~~limit # of words~~
-- ~~Sample output~~
-	- ~~word1 word2 ... wordn # @~~
-- Force lowercase on password
+JQuery help on form input disabling from [Kris Ivanov on StackOverflow](http://stackoverflow.com/questions/5818415/enable-disable-submit-button-based-on-radio-buttons/5818714#5818714)
 
 
 ## TODO (extra)

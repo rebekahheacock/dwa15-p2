@@ -10,10 +10,9 @@ body {
 
 .password	{
     text-align: center;
-    color: #E93E0A;
+    color: #009C6C;
     font-size: 24px;
     font-family: 'Oswald', sans-serif;
-    min-height: 72px;
     padding: 0;
     margin: 0 0 20px 0;
 }
@@ -38,6 +37,10 @@ h1 {
 h1 small {
 	color: #E93E0A;
 	}
+
+label small {
+	color: #999;
+}
 
 .btn-default {
 	background-color: #0C6F84;
