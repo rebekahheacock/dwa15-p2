@@ -104,7 +104,7 @@
 </div>
 
 <footer>
-	<p><a href="https://thenounproject.com/search/?q=dinosaur&i=161852">Dinosaur icon</a> by <a href="https://thenounproject.com/goodmajr2827">Jennifer Goodman</a> on the <a href="https://thenounproject.com/">Noun Project</a>. Used under a <a href="http://creativecommons.org/licenses/by/3.0/us/">CC-BY 3.0</a> license.</p>
+	<p><a href="https://thenounproject.com/term/dinosaur/161852">Dinosaur icon</a> by <a href="https://thenounproject.com/goodmajr2827">Jennifer Goodman</a> on the <a href="https://thenounproject.com/">Noun Project</a>. Used under a <a href="http://creativecommons.org/licenses/by/3.0/us/">CC-BY 3.0</a> license.</p>
 </footer>
 
 
