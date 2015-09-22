@@ -1,8 +1,8 @@
-# P2 for DWA15
+# P2 for DWA15: xkcd Password Generator
 
 ## Live URL
 
-TK
+http://p2.rhjones.me
 
 ## Demo URL
 
@@ -10,7 +10,11 @@ TK
 
 ## Description
 
-XKCD-style password generator: generates a string of words, plus an optional number and/or symbol, to serve as a more easily memorable password. Takes as inputs a number of words, whether or not to include a number and/or symbol, and a preferred word separator. Options include "memorable mode," which outputs a string consisting of an adjective, noun, verb, and adverb for a "grammatically correct" password, and "dinosaur mode," which outputs a password containing a dinosaur.
+XKCD-style password generator: generates a string of words, plus an optional number and/or symbol, to serve as a more easily memorable password. 
+
+Takes as inputs a number of words, whether or not to include a number and/or symbol, and a preferred word separator. 
+
+Options include "memorable mode," which outputs a string consisting of an adjective, noun, verb, and adverb for a "grammatically correct" password, and "dinosaur mode," which outputs a password containing a dinosaur.
 
 ## Outside resources
 
