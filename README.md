@@ -27,6 +27,6 @@ Word lists are from the [Corpora project](https://github.com/dariusk/corpora/)  
 - [Verbs](https://github.com/dariusk/corpora/blob/master/data/words/verbs.json)
 - [Dinosaurs](https://github.com/dariusk/corpora/blob/master/data/animals/dinosaurs.json)
 
-[Dinosaur icon](https://thenounproject.com/search/?q=dinosaur&i=161852) is by [Jennifer Goodman](https://thenounproject.com/goodmajr2827) on the [Noun Project](https://thenounproject.com/) and is used under a [CC-BY 3.0](http://creativecommons.org/licenses/by/3.0/us/) license.
+[Dinosaur icon](https://thenounproject.com/term/dinosaur/161852) is by [Jennifer Goodman](https://thenounproject.com/goodmajr2827) on the [Noun Project](https://thenounproject.com/) and is used under a [CC-BY 3.0](http://creativecommons.org/licenses/by/3.0/us/) license.
 
 JQuery help on form input disabling from [Kris Ivanov on StackOverflow](http://stackoverflow.com/questions/5818415/enable-disable-submit-button-based-on-radio-buttons/5818714#5818714)
