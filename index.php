@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>RHJ: XKCD Password Generator</title>
-	<link href='https://fonts.googleapis.com/css?family=Oswald:700,400|Droid+Serif:400,400italic,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Oswald:700,400%7CDroid+Serif:400,400italic,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/p2.css">
 </head>

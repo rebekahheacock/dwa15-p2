@@ -1,17 +1,17 @@
 <?php
 
-	$num_yes = 'unchecked';
-	$num_no = 'unchecked';
-	$symbol_yes = 'unchecked';
-	$symbol_no = 'unchecked';
-	$memorable = 'unchecked';
-	$separator_space = 'unchecked';
-	$separator_dash = 'unchecked';
-	$separator_dot = 'unchecked';
-	$separator_none = 'unchecked';
-	$separator_random = 'unchecked';
+	$num_yes = '';
+	$num_no = '';
+	$symbol_yes = '';
+	$symbol_no = '';
+	$memorable = '';
+	$separator_space = '';
+	$separator_dash = '';
+	$separator_dot = '';
+	$separator_none = '';
+	$separator_random = '';
 	$separators = [' ', '-', '.', ''];
-	$dino = 'unchecked';
+	$dino = '';
 	$numwords = '';
 	$num = '';
 	$symbol = '';
