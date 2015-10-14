@@ -9,7 +9,6 @@
 </head>
 <body>
 
-<?php require 'scraping.php' ?>
 <?php require 'pwdgen.php' ?>
 
 <div class="container-fluid">
