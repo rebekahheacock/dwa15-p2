@@ -92,7 +92,7 @@
 							<input type="radio" name="fancy" id="memorable" <?php echo $memorable ?> value="memorable"> Make it memorable <small>Four words in grammatically correct order</small>
 						</label><br />
 						<label for="dino" class="radio-inline">
-							<input type="radio" name="fancy" id="dino" <?php echo $dino ?> value="dino"> Dinosaurs! <small>Include a <a href="https://github.com/dariusk/corpora">dinosaur</a> in the password</small>
+							<input type="radio" name="fancy" id="dino" <?php echo $dino ?> value="dino"> Dinosaurs! <small>Include a <a href="https://github.com/dariusk/corpora/blob/master/data/animals/dinosaurs.json">real dinosaur name</a> in the password</small>
 						</label>
 					</div>
 				</div>
