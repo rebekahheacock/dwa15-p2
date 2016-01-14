@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>RHJ: XKCD Password Generator</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href='https://fonts.googleapis.com/css?family=Oswald:700,400%7CDroid+Serif:400,400italic,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/p2.css">
@@ -16,10 +17,12 @@
 		<div class="col-md-12">
 			<h1>xkcd Password Generator <small>Remember words, not gibberish</small></h1>
 		</div>
-		<div class="col-md-5">
+	</div>
+	<div class="row">
+		<div class="col-md-6 text-center">
 			<a href="http://xkcd.com/936/"><img src="img/xkcd_password_strength.png" alt="XKCD Password Strength" class="img-responsive" title="Original hovertext: 'To anyone who understands information theory and security and is in an infuriating argument with someone who does not (possibly involving mixed case), I sincerely apologize.'"></a>
 		</div>
-		<div class="col-md-7">
+		<div class="col-md-6">
 			<div class="row">
 				<div class="col-sm-12">
 					<p class="password">

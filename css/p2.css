@@ -17,6 +17,11 @@ body {
     margin: 0 0 20px 0;
 }
 
+.img-responsive {
+	display: inline-block;
+	padding-bottom: 2em;
+}
+
 #numwords {
 	width: 50px;
 	display: inline;
